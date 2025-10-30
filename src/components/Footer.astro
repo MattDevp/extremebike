@@ -3,7 +3,7 @@ import { Icon } from 'astro-icon/components';
 const actualDate = new Date();
 const year = actualDate.getFullYear();
 ---
-<footer class=" mt-auto bg-orange-400 h-full w-full p-20">
+<footer class=" mt-auto bg-[#ed3f02] h-full w-full p-20">
     <div class="flex justify-between p-5 max-sm:flex-col">
         <div id="left-footer" class="flex flex-col">
             <p class="p-3">Preguntas Frecuentes</p>
@@ -15,20 +15,27 @@ const year = actualDate.getFullYear();
             <h1 class="p-3 text-3xl">Siguenos en: </h1>
             <div class="flex flex-row">    
                 <div id="ig" class="p-3">
-                    <a href="https://www.instagram.com/extreme.bike.placilla/">
+                    <a href="https://www.instagram.com/extreme.bike.placilla/" target="_blank">
                         <Icon name="ig" size={40} />
                     </a>
                 </div>
                 <div id="x" class="p-3">
-                    <a href="#">
+                    <a href="https://x.com/v_brejcha" target="_blank">
                         <Icon name="x" size={40} />
                     </a>
                 </div>
+                <div id="fb" class="p-3">
+                    <a href="https://www.facebook.com/xtremebikeplacilla" target="_blank">
+                        <Icon name="fb" size={40} />
+                    </a>
+                </div>
+                <!-- 
                 <div id="tt" class="p-3">
                     <a href="#">
                         <Icon name="tt" size={40} />
                     </a>
                 </div>
+                -->
             </div>
             <div class="mt-20">
                 <p class="font-bold text-2xl">ExtremeBike {year}</p>
