@@ -2,10 +2,11 @@
 import Layout from "../layouts/Layout.astro"
 import Footer from "../components/Footer.astro"
 import Header from "../components/Header.astro"
+import Header1 from "../components/Header1.astro"
 ---
 
 <Layout title="About">
-    <Header />
+    <Header1 />
     <div class="flex justify-center align-middle">
         <div>
             <article class="prose lg:prose-xl text-amber-50">
@@ -38,7 +39,7 @@ import Header from "../components/Header.astro"
                 <h2 class="text-amber-50 flex justify-center">MAPA</h2>
                 <div class="flex justify-center">
                     <iframe 
-                        class="xl:w-[400px] xl:h-[400px] lg:w-[300px] lg:h-[300px] md:w-[200px] md:h-[200px] sm:w-[150px] sm:h-[150px] mt-6 mb-6" 
+                        class="xl:w-[500px] xl:h-[500px] lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] sm:w-[250px] sm:h-[250px] mt-6 mb-6" 
                         src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d846.3761476929776!2d-71.5729313!3d-33.1093702!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x9689e12426925673%3A0x8ae65fa77cb89c17!2sExtreme%20bike%20-%20Segunda%2C%20Valpara%C3%ADso!3m2!1d-33.1093706!2d-71.57293059999999!5e1!3m2!1ses!2scl!4v1762476626013!5m2!1ses!2scl" 
                         style="border:0;" 
                         allowfullscreen="" 
