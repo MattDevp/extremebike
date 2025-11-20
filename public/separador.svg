@@ -38,36 +38,14 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:42.0014px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05005"
-       x="11.631058"
-       y="29.968575"
-       id="text3338"
-       transform="scale(0.84547845,1.1827623)"><tspan
-         sodipodi:role="line"
-         id="tspan3336"
-         x="11.631058"
-         y="29.968575"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ethnocentric;-inkscape-font-specification:Ethnocentric;fill:#ffffff;fill-opacity:1;stroke-width:1.05005"></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:29.5284px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00666"
-       x="9.2631426"
-       y="90.962708"
-       id="text11040"
-       transform="scale(1.0066521,0.99339183)"><tspan
-         sodipodi:role="line"
-         id="tspan11038"
-         x="9.2631426"
-         y="90.962708"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.5284px;font-family:Formula1;-inkscape-font-specification:Formula1;fill:#ffffff;fill-opacity:1;stroke-width:1.00666"></tspan></text>
+    
     <rect
        style="fill:#ff3300;fill-opacity:1;stroke-width:1.35515"
        id="rect16208"
        width="1539.0696"
        height="9.6347017"
-       x="9.7635603"
-       y="45.062588" />
+       x="1.7635603"
+       y="20.062588" 
+   />
   </g>
 </svg>
