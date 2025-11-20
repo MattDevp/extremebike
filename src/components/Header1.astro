@@ -1,28 +1,43 @@
 ---
-
+import { Icon } from "astro-icon/components"
 ---
 
-<header>
-    <div class="container flex gap-3 mt-4 ml-4">
-        <div class="foto">
-            <img src="/foto-header-test.jpg" alt="foto-header" width="140" height="140">
+<header class="">
+    <div class="flex">
+        <div class="flex gap-3 mt-4 ml-4">
+            <div class="foto">
+                <img src="/logo-header.svg" alt="logo-header" width="180" height="180">
+            </div>
+            <div class="">
+                <div>
+                    <h1>REPARACIÓN Y VENTA DE BICICLETAS</h1>
+                </div>
+                <div class="m-0 p-0 h-8 w-full">
+                    <img class="" src="/separador.svg" alt="seperador">
+                </div>
+                <div class="mt-0">
+                    <h2>LO MEJOR PARA TU BICI</h2>
+                </div>
+            </div>
         </div>
-        <div class="title">
-            <div>
-                <h1>REPARACIÓN Y VENTA DE BICICLETAS</h1>
-            </div>
-            <div class="m-0 p-0 h-8">
-                <img class="" src="/separador.svg" alt="seperador">
-            </div>
-            <div class="mt-0">
-                <h2>LO MEJOR PARA TU BICI</h2>
-            </div>
-
+    </div>
+    <div class="flex flex-row-reverse">
+        
+        <a class="ml-2" href="https://api.whatsapp.com/send?phone=56961710166">
+            <Icon name="wsp" size={20} />
+        </a>
+        <h3>contáctanos</h3>
+    </div>
+    <div class="mt-3">
+        <img src="/barra.svg" alt="barra">
     </div>
 </header>
 
 <style>
-    h1,h2 {
-        font-family: 'Formula1 Display Wide', sans-serif;
+    h1,h2{
+        font-family: 'Formula1 Display wide', sans-serif;
+    }
+    h3 {
+        font-family: 'Formula1 Display', sans-serif;
     }
 </style>
