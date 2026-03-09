@@ -1,4 +1,9 @@
 ---
+import {Image} from "astro:assets";
+import cascoCignaAzul from "../assets/img/casco-cigna-azul.jpeg"
+import cascoCignaNegroAzul from "../assets/img/casco-cigna-negro-azul.jpeg"
+import cascoCignaNegroRojo from "../assets/img/casco-cigna-negro-rojo.jpeg"
+import cascoCignaRojo from "../assets/img/casco-cigna-rojo.jpeg"
 
 ---
 
@@ -9,28 +14,28 @@
     <!-- Imagen 1 -->
     <div class="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
     <div class="h-full overflow-hidden rounded-lg shadow-lg">
-        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="casco-cigna-azul.jpeg" alt="casco cigna azul">
+        <Image class="lg:h-48 md:h-36 w-full object-cover object-center" src={cascoCignaAzul} alt="casco cigna azul">
     </div>
     </div>
 
     <!-- Imagen 2 -->
     <div class="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
     <div class="h-full overflow-hidden rounded-lg shadow-lg">
-        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="casco-cigna-negro-azul.jpeg" alt="casco cigna negro azul">
+        <Image class="lg:h-48 md:h-36 w-full object-cover object-center" src={cascoCignaNegroAzul} alt="casco cigna negro azul">
     </div>
     </div>
 
     <!-- Imagen 3 -->
     <div class="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
     <div class="h-full overflow-hidden rounded-lg shadow-lg">
-        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="casco-cigna-negro-rojo.jpeg" alt="casco cigna negro rojo">
+        <Image class="lg:h-48 md:h-36 w-full object-cover object-center" src={cascoCignaNegroRojo} alt="casco cigna negro rojo">
     </div>
     </div>
 
     <!-- Imagen 4 -->
     <div class="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
     <div class="h-full overflow-hidden rounded-lg shadow-lg">
-        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="casco-cigna-rojo.jpeg" alt="casco cigna rojo">
+        <Image class="lg:h-48 md:h-36 w-full object-cover object-center" src={cascoCignaRojo} alt="casco cigna rojo">
     </div>
     </div>
 
